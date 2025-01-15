@@ -1,0 +1,218 @@
+/* CSS for All */
+/* https://www.w3schools.com/cssref/pr_font_font-family.php */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* https://www.w3schools.com/css/css3_images.asp */
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+.clearfix{
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/clear */
+    /* WEBSITE TO TEST  https://www.w3schools.com/cssref/tryit.php?filename=trycss_class-clear */
+    clear: both;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/float */
+    float: none;
+}
+a{
+    color: #1e3799;
+    text-decoration: none;
+}
+/* https://www.w3schools.com/cssref/sel_hover.asp */
+a:hover{
+    color: #0c2461;
+}
+/* REM https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ */
+/*In CSS rem stands for “root em”, a unit of measurement that represents the font size of the root element. 
+This means that 1rem equals the font size of the html element, which for most browsers has a default value of 16px. 
+Using rem can help ensure consistency of font size and spacing throughout your UI.*/
+.btn{
+    padding: 1%;
+    border: none;
+    /* REM https://www.freecodecamp.org/news/what-is-rem-in-css-rem-unit-font-size-padding-height-and-more/ */
+    /* rem stands for root em, which is a measurement unit that refers to the font-size of the root element of a document.
+    It is a relative unit, which means all values that use it change when the root's font-size changes. The root element in this case refers to the html element.
+    1rem means 1 times the root font-size. */
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #1e3799;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #0c2461;
+}
+.btn-reset{
+    background-color: #873f3f;
+    color: white;
+    cursor: pointer;
+}
+.btn-reset:hover{
+    color: white;
+    background-color: #5f0f0f;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+    color: #2f3542;
+}
+h4{
+    color: #2f3542;
+    font-size: 1.2rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.error{
+    padding: 2%;
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.success{
+    padding: 2%;
+    color: green;
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* CSSS for navbar section */
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+/* CSS for book SEarch Section */
+.book-search{
+    padding: 7% 0;
+}
+.background{
+    background-image: url(../images/background.jpg);
+    /* SOURCE https://stackoverflow.com/questions/40952360/curved-background-image-in-css */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-left-radius */
+    /* REM  https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ */
+    border-bottom-left-radius: 250% 160px;
+    border-bottom-right-radius: 0;
+    margin-left: -2em;
+    padding-right: 2em;
+}
+.book-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+/* left - The element floats to the left of its container */
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+/* CSS for book Menu */
+.book-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.book-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.book-menu-img{
+    width: 20%;
+    float: left;
+}
+.book-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.book-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.book-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
